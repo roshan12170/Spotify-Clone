@@ -1,0 +1,51 @@
+h1{
+    color: rgb(139, 71, 48);
+    background-color: rgb(200, 176, 222);
+}
+
+#login , #signup{
+    color: white;
+    background-color:blue;
+}
+
+h3{
+    color: purple;
+}
+
+.upvote{
+    background-color: green;
+    color: white;
+}
+#myid p {
+    color: green;
+}
+
+.ans{
+    background-color: rgb(188, 188, 29);
+}
+
+div>input{
+    background-color: cornsilk;
+}
+button:hover{
+    background-color: pink;
+    color: blueviolet;
+}
+
+
+h1::first-letter{
+    color: green;
+}
+input[type="radio"]:checked+label {
+    color: red !important;
+    font-weight: bold;
+}
+input[type="radio"]:checked+label {
+    color:blue !important;
+    font-weight: bold;
+}
+
+
+p::first-line{
+    background-color: yellow;
+}
